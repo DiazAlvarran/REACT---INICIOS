@@ -1,0 +1,208 @@
+.Container{
+	display: block;
+	margin: 20px;
+	border: solid 4px black;
+	position: static;
+}
+
+
+/*---------HEADER----------*/
+.Cabecera{
+	display: block;
+	background-color: #abeaab;
+	position: relative;
+	padding: 10px;
+	height: 120px;
+	margin: 0px;
+}
+
+.Figura_titulo{
+	display: inline-block;
+	position: relative;
+	margin: 0px 20px 0px 0px;
+	float: left;
+}
+
+.Img_titulo{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+}
+
+.Titulo_cabecera{
+	display: inline;
+	left: 0px;
+	font: bold 57px arial;
+}
+
+
+/*---------NAV----------*/
+.Barra_navegacion{
+	display: inline-block;
+	width: 100%;
+	background-color: #a4cce3;
+	margin: 0px;
+	padding: 10px 0px;
+	border-top: solid 4px black;
+	border-bottom: solid 4px black;
+}
+
+ul{
+	display: inline;
+}
+
+.Lista_horizontal{
+	display: inline;
+	list-style-type: none;
+	float: left;
+	margin: 0px 50px;
+	font: bold 20px arial;
+}
+
+
+/*--------CONTENIDO CENTRAL--------*/
+.Cuerpo{
+	display: inline-block;
+	background-color: #fff8c0;
+	position: relative;
+	bottom: 0px;
+}
+
+.Contenido_cuerpo{
+	display: inline-block;
+	width: 70%;
+	margin: 25px 0px 0px 25px;
+	background-color: #f8b48a;
+	float: left;
+	border-top: solid 4px black;
+	border-right: solid 4px black;
+	border-left: solid 4px black;
+}
+
+.Navegacion_cuerpo{
+	display: inline-block;
+	width: 100%;
+	margin: 0px;
+	padding: 10px 0px;
+	border-bottom: solid 4px black;
+}
+
+.Titulo_articulo{
+	position: relative;
+	display: block;
+	font: bold 42px arial;
+	margin: 15px 0px;
+}
+
+.Figure_tema{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin: 10px 0px;
+	border-top: solid 4px black;
+	border-bottom: solid 4px black;
+	text-align: center;
+	background-color: white;
+}
+
+p{
+	font-family: arial;
+	margin: 0px 10px;
+}
+
+footer{
+	text-align: right;
+	font-style: italic;
+	margin-right: 10px; 
+}
+
+
+
+
+
+
+.Barra_lateral{
+	display: inline-block;
+	position: relative;
+	border-top: solid 4px black;
+	border-left: solid 4px black;
+	border-right: solid 4px black;
+	background-color: #c4bacf;
+	margin: 25px 25px 0px 25px;
+	width: 23%;
+}
+
+.Caja_sigueme{
+	border-bottom: solid 4px black;
+}
+
+.Sigueme{
+	margin: 5px 15px;
+	font-style: bold;
+	font-family: arial;
+}
+
+.Iconos{
+	border-bottom: solid 4px black;
+	margin: 0;
+}
+
+i{
+	font-size: 60px;
+	margin: 7px 10px;
+}
+
+.Caja_curso{
+	position: relative;
+	top: 15px;
+	border-top: solid 4px black;
+	border-bottom: solid 4px black;
+}
+
+.Curso{
+	display: inline-block;
+	margin: 5px 15px;
+	font-style: bold;
+	font-family: arial;
+}
+
+.Figure_html5{
+	width: 100%;
+	margin: 10px 0px;
+	border-top: solid 4px black;
+	border-bottom: solid 4px black;
+	text-align: center;
+	background-color: white;
+}
+
+.Imagen_html5{
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+.Caja_categoria{
+	position: relative;
+	top: 10px;
+	border-top: solid 4px black;
+	border-bottom: solid 4px black;
+}
+
+.Categoria{
+	display: inline-block;
+	margin: 5px 15px;
+	font-style: bold;
+	font-family: arial;
+}
+
+.Lista_categoria{
+	background-color: white;
+}
+
+.Lista_vertical{
+	margin-left: 15px;
+	margin-top: 5px;
+	list-style-type: none;
+	font-style: italic;
+	font-family: arial;
+}
